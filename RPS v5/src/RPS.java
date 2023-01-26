@@ -239,7 +239,7 @@ public class RPS implements ActionListener {
         panel.add(new JScrollPane(table));
         frame.add(table);
         frame.setSize(400,200);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
